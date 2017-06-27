@@ -32,10 +32,8 @@ public class BootLoad extends JFrame {
 		panel.add(button);
 		button.addActionListener(new Action1());
 
-		
 		JTextField username = new JTextField("UserName", 50);
 		JTextField password = new JTextField("Password", 50);
-		
 
 		getContentPane().add(username);
 		getContentPane().add(password);
@@ -78,6 +76,7 @@ public class BootLoad extends JFrame {
 
 		System.out.println("Main");
 		new BootLoad().setVisible(true);
+		// new TurtleShell();
 	}
 
 }
