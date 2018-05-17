@@ -1,4 +1,4 @@
-package com.crazysaddler.op.turtleshell;
+package com.crazysaddler.op.TyperWriter;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
@@ -15,7 +15,7 @@ import javax.swing.JTextArea;
 import javax.swing.JToolBar;
 import javax.swing.KeyStroke;
 
-public class TurtleShell extends JFrame implements ActionListener {
+public class TyperWriter extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
 	private JTextArea ta;
@@ -28,7 +28,7 @@ public class TurtleShell extends JFrame implements ActionListener {
 	private String pad;
 	private JToolBar toolBar;
 
-	public TurtleShell() {
+	public TyperWriter() {
 		super("Turtle Shell");
 		setSize(600, 600);
 		setLocationRelativeTo(null);
